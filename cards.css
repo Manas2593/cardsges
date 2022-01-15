@@ -1,0 +1,106 @@
+.page{
+    background-color: black;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Console"
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: white;
+    height: 650px;
+    width:  350px;
+    margin:15px;
+    text-align: center;
+    border-radius: 15px;
+}
+.img1{
+    background-image: url(maths.png);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img2{
+    background-image: url(ED.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img3{
+    background-image: url(cse.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.card2{
+    background-color: white;
+    height: 650px;
+    width:  350px;
+    margin:15px;
+    text-align: center;
+    border-radius: 15px;
+}
+.img4{
+    background-image: url(chem.png);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img5{
+    background-image: url(ED2.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img6{
+    background-image: url(bio.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+a{
+    background-color: black;
+    color:white;
+    display:block;
+    margin:20px 50px;
+    font-size:15px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.card1:hover{
+    background-color:rgb(62,62,62);
+    color:white;
+    transform:scale(1.03);  
+    transition: all 1s ease;
+}
+.card2:hover{
+    background-color:rgb(62,62,62);
+    color:white;
+    transform:scale(1.03);
+    transition: all 0.8s ease;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transform:scale(1.05);
+    cursor:pointer;
+    transition: all 0.4s ease;
+}
